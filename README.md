@@ -117,7 +117,7 @@ flowchart LR
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Arij-Mhjb&show_icons=true&hide_border=true&bg_color=00000000&title_color=34d399&icon_color=22d3ee&text_color=94a3b8&rank_icon=github" alt="Arij's GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Arij-Mhjb&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=34d399&icon_color=22d3ee&text_color=94a3b8&rank_icon=github" alt="Arij's GitHub statistics" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arij-Mhjb&layout=compact&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=94a3b8&langs_count=8" alt="Arij's most used languages" />
 
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Arij-Mhjb&bg_color=00000000&color=94a3b8&line=34d399&point=a78bfa&area=true&hide_border=true" alt="Arij's contribution activity graph" />
