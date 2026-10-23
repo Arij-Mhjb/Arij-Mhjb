@@ -1,43 +1,67 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Arij Mahjoub — Software Engineering</title>
-  <desc id="desc">A dark emerald and violet banner with woven lines representing technology, sustainability and connected systems.</desc>
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arij Mahjoub — Software Engineer and Impact Builder</title>
+  <desc id="desc">Creative dark banner with bold typography, woven fiber paths, code symbols and colorful technology badges.</desc>
   <defs>
-    <linearGradient id="background" x1="60" y1="20" x2="1140" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071A17"/>
-      <stop offset="0.5" stop-color="#10233D"/>
-      <stop offset="1" stop-color="#24153C"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#041A17"/><stop offset="0.46" stop-color="#0B1730"/><stop offset="1" stop-color="#27133A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="130" y1="70" x2="1060" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#34D399"/>
-      <stop offset="0.5" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+    <linearGradient id="name" x1="72" y1="80" x2="620" y2="278" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/><stop offset="0.55" stop-color="#D1FAE5"/><stop offset="1" stop-color="#A5F3FC"/>
     </linearGradient>
-    <pattern id="weave" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M0 11H44M0 33H44" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="2"/>
-      <path d="M11 0V44M33 0V44" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="2"/>
+    <linearGradient id="rainbow" x1="676" y1="54" x2="1126" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(930 206) rotate(90) scale(178)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#E2E8F0" stroke-opacity="0.035"/>
     </pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="28"/></filter>
   </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#weave)"/>
-  <circle cx="1050" cy="64" r="170" fill="#34D399" fill-opacity="0.07"/>
-  <circle cx="1120" cy="300" r="220" fill="#A78BFA" fill-opacity="0.07"/>
-  <path d="M72 276C222 197 296 321 438 244C580 167 641 275 775 201C909 127 1009 208 1137 115" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
-  <g opacity="0.95">
-    <circle cx="72" cy="276" r="7" fill="#34D399"/>
-    <circle cx="438" cy="244" r="7" fill="#2DD4BF"/>
-    <circle cx="775" cy="201" r="7" fill="#22D3EE"/>
-    <circle cx="1137" cy="115" r="7" fill="#A78BFA"/>
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="30" fill="url(#grid)"/>
+  <circle cx="930" cy="206" r="210" fill="url(#orb)"/>
+  <circle cx="1160" cy="20" r="150" fill="#C084FC" fill-opacity="0.08" filter="url(#soft)"/>
+  <circle cx="70" cy="430" r="145" fill="#34D399" fill-opacity="0.08" filter="url(#soft)"/>
+  <rect x="72" y="62" width="54" height="7" rx="3.5" fill="#34D399"/>
+  <rect x="132" y="62" width="18" height="7" rx="3.5" fill="#22D3EE"/>
+  <text x="72" y="160" fill="url(#name)" font-family="Segoe UI, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-4">ARIJ</text>
+  <text x="70" y="244" fill="url(#name)" font-family="Segoe UI, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-4">MAHJOUB</text>
+  <text x="76" y="286" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="4">SOFTWARE ENGINEER · IMPACT BUILDER</text>
+  <text x="76" y="326" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="19">I turn complex ideas into useful, trusted systems.</text>
+  <g transform="translate(74 351)">
+    <rect width="128" height="38" rx="19" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.5"/>
+    <circle cx="21" cy="19" r="5" fill="#34D399"/><text x="35" y="25" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">FULL-STACK</text>
   </g>
-  <text x="72" y="118" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-1.5">Arij Mahjoub</text>
-  <text x="76" y="166" fill="#A7F3D0" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3">SOFTWARE ENGINEERING · TUNISIA</text>
-  <text x="76" y="210" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building useful systems where code, people and sustainability connect.</text>
-  <g transform="translate(895 238)">
-    <rect width="242" height="54" rx="27" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
-    <circle cx="31" cy="27" r="10" fill="#34D399"/>
-    <text x="52" y="35" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">open to collaboration</text>
+  <g transform="translate(214 351)">
+    <rect width="76" height="38" rx="19" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.5"/>
+    <circle cx="20" cy="19" r="5" fill="#22D3EE"/><text x="34" y="25" fill="#A5F3FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">AI</text>
   </g>
+  <g transform="translate(302 351)">
+    <rect width="176" height="38" rx="19" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.5"/>
+    <circle cx="21" cy="19" r="5" fill="#C084FC"/><text x="35" y="25" fill="#E9D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">SUSTAINABILITY</text>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M674 84C756 26 821 76 848 149C875 222 951 230 1000 176C1049 122 1109 130 1140 166" stroke="url(#rainbow)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M654 318C736 376 813 349 849 278C885 207 951 202 1006 258C1061 314 1114 300 1153 264" stroke="url(#rainbow)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M726 48C670 142 710 220 780 252C850 284 869 344 838 390" stroke="url(#rainbow)" stroke-opacity="0.66" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1082 34C1140 116 1110 198 1044 230C978 262 970 330 1008 388" stroke="url(#rainbow)" stroke-opacity="0.66" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(852 126)">
+    <circle cx="82" cy="82" r="78" fill="#071827" fill-opacity="0.8" stroke="url(#rainbow)" stroke-width="2"/>
+    <circle cx="82" cy="82" r="62" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M64 54L38 82L64 110" stroke="#34D399" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 54L126 82L100 110" stroke="#C084FC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M92 38L72 126" stroke="#22D3EE" stroke-width="7" stroke-linecap="round"/>
+    <path d="M82 137C64 130 57 118 58 104C75 105 87 115 89 131" fill="#34D399" fill-opacity="0.82"/>
+  </g>
+  <g>
+    <circle cx="674" cy="84" r="7" fill="#34D399"/><circle cx="848" cy="149" r="6" fill="#22D3EE"/><circle cx="1140" cy="166" r="7" fill="#C084FC"/>
+    <circle cx="654" cy="318" r="7" fill="#34D399"/><circle cx="849" cy="278" r="6" fill="#22D3EE"/><circle cx="1153" cy="264" r="7" fill="#C084FC"/>
+  </g>
+  <text x="1110" y="386" fill="#64748B" font-family="Consolas, monospace" font-size="14" text-anchor="end">build → test → learn → improve</text>
 </svg>
