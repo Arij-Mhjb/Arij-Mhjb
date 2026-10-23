@@ -2,8 +2,6 @@
 
 ![Arij Mahjoub — Software Engineering](assets/header.svg)
 
-[![Profile views](https://komarev.com/ghpvc/?username=Arij-Mhjb&style=for-the-badge&color=10b981&label=PROFILE+VIEWS)](https://github.com/Arij-Mhjb)
-[![GitHub followers](https://img.shields.io/github/followers/Arij-Mhjb?style=for-the-badge&logo=github&label=FOLLOWERS&color=8b5cf6)](https://github.com/Arij-Mhjb?tab=followers)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-Explore-0f172a?style=for-the-badge&logo=githubpages&logoColor=white)](https://github.com/Arij-Mhjb/Portfolio)
 
 </div>
@@ -112,17 +110,6 @@ flowchart LR
 - I treat tests and static analysis as part of development.
 - I document decisions so another developer can continue the work.
 - I care about sustainability as both a product goal and an engineering constraint.
-
-## GitHub at a glance
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Arij-Mhjb&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=34d399&icon_color=22d3ee&text_color=94a3b8&rank_icon=github" alt="Arij's GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arij-Mhjb&layout=compact&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=94a3b8&langs_count=8" alt="Arij's most used languages" />
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Arij-Mhjb&bg_color=00000000&color=94a3b8&line=34d399&point=a78bfa&area=true&hide_border=true" alt="Arij's contribution activity graph" />
-
-</div>
 
 ## Let's build something meaningful
 
